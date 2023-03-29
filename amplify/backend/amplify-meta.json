@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webscraping-dev-133829-authRole",
+      "UnauthRoleArn": "arn:aws:iam::858295579569:role/amplify-webscraping-dev-133829-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::858295579569:role/amplify-webscraping-dev-133829-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-webscraping-dev-133829-deployment",
+      "UnauthRoleName": "amplify-webscraping-dev-133829-unauthRole",
+      "StackName": "amplify-webscraping-dev-133829",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:858295579569:stack/amplify-webscraping-dev-133829/8e4af880-cdeb-11ed-b787-065bb3ce03d5",
+      "AmplifyAppId": "d3r5olhnxpqkft"
+    }
+  },
+  "auth": {
+    "webscrapingd2659fb3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-webscraping-dev-133829-deployment/amplify-cfn-templates/auth/webscrapingd2659fb3-cloudformation-template.json",
+        "logicalId": "authwebscrapingd2659fb3"
+      },
+      "lastPushTimeStamp": "2023-03-29T07:26:07.385Z",
+      "output": {
+        "UserPoolId": "ap-northeast-1_sYddTeWfr",
+        "AppClientIDWeb": "fpieb6gequ3fmcg731mm4brc",
+        "AppClientID": "18dn7oobjl4mqu1ae3pdfs4bb7",
+        "IdentityPoolId": "ap-northeast-1:2a32db5a-0e23-45cf-a238-dc9f680149d9",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-1:858295579569:userpool/ap-northeast-1_sYddTeWfr",
+        "IdentityPoolName": "webscrapingd2659fb3_identitypool_d2659fb3__dev",
+        "UserPoolName": "webscrapingd2659fb3_userpool_d2659fb3"
+      },
+      "lastPushDirHash": "TcTbFOG2eIpj++FtpP8+oMQz5DM="
+    }
+  }
+}
