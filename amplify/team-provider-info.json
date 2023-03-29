@@ -10,6 +10,11 @@
       "StackName": "amplify-webscraping-dev-133829",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:858295579569:stack/amplify-webscraping-dev-133829/8e4af880-cdeb-11ed-b787-065bb3ce03d5",
       "AmplifyAppId": "d3r5olhnxpqkft"
+    },
+    "categories": {
+      "auth": {
+        "webscrapingd2659fb3": {}
+      }
     }
   }
 }
