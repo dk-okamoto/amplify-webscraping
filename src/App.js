@@ -5,9 +5,10 @@ import { withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 import LineExample from './Line';
 import { Chart, registerables } from "chart.js";
+import awsExports from "./aws-exports";
 Chart.register(...registerables);
 
-import awsExports from "./aws-exports";
+//import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 
 
